@@ -14,8 +14,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Episodes
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/entertainment-express/apis.md
 specificationVersion: "0.14"
 apis:
@@ -73,6 +73,31 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/entertainment-express/showsseasonsepisodesid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/entertainment-express/showsseasonsepisodesid-get-openapi.md
+- name: Entertainment Express - Get Episode by ShowId, Season Number and Episode Number.
+  x-api-slug: showsidseasonsseasonnumberepisodesepisodenumber-get
+  description: Requires a valid ShowId, Season Number and Episode Number.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/entertainment-express/showsidseasonsseasonnumberepisodesepisodenumber-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/entertainment-express/showsidseasonsseasonnumberepisodesepisodenumber-get-openapi.md
+- name: Entertainment Express - Get Episode by ShowId, Season Number and Episode Number.
+  x-api-slug: showsseasonsepisode-get
+  description: Some use cases find it useful to be able to pass a season number and
+    episode number of a known show to get the data for that exact episode.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/entertainment-express/showsseasonsepisode-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/entertainment-express/showsseasonsepisode-get-openapi.md
 - name: Entertainment Express - Get Episode by ShowId, Season Number and Episode Number.
   x-api-slug: showsidseasonsseasonnumberepisodesepisodenumber-get
   description: Requires a valid ShowId, Season Number and Episode Number.

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreak
 x-kinRank: "8"
 x-alexaRank: "12286"
 tags: Episodes
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
 apis:
@@ -288,6 +288,97 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-idstreamsrtmp-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-idstreamsrtmp-get-openapi.md
+- name: Spreaker API - Get Episode Streams
+  x-api-slug: episodeepisode-idstreamsrtmp-get
+  description: The response contains a collection of RTMP / RTMPT streams.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-idstreamsrtmp-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-idstreamsrtmp-get-openapi.md
+- name: Spreaker API - Get Episode Streams
+  x-api-slug: episodeepisode-idstreamsicy-get
+  description: The response contains a collection of ICY streams.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-idstreamsicy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-idstreamsicy-get-openapi.md
+- name: Spreaker API - Get Episode Media List
+  x-api-slug: episodeepisode-idmedia-get
+  description: Get Episode Media List
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-idmedia-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-idmedia-get-openapi.md
+- name: Spreaker API - Edit Episode
+  x-api-slug: episodeepisode-id-put
+  description: Edit episode info (eg. title, description, category, tags, ...)
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-id-put-openapi.md
+- name: Spreaker API - Get Episode
+  x-api-slug: episodeepisode-id-get
+  description: Retrieves an episode by unique identifier.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-id-get-openapi.md
+- name: Spreaker API - Delete Episode
+  x-api-slug: episodeepisode-id-delete
+  description: Deletes an episode. Theres no way to recover a deleted episode.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-id-delete-openapi.md
+- name: Spreaker API - Change Episode Image
+  x-api-slug: episodeepisode-idimage-put
+  description: Change Episode Image
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-idimage-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/spreaker/episodeepisode-idimage-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://spotify.api.gallery.streamdata.io

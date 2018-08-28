@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Spreaker
 x-complete: 1
@@ -265,4 +264,3 @@ paths:
       - Podcasts
       - Episode
       - Streams
----

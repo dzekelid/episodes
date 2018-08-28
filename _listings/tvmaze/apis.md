@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Episodes
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/tvmaze/apis.md
 specificationVersion: "0.14"
 apis:
@@ -61,6 +61,66 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/tvmaze/userepisodesepisode-id-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/tvmaze/userepisodesepisode-id-parameters-openapi.md
+- name: TVmaze user - Put User Episodes
+  x-api-slug: userepisodesepisode-id-put
+  description: Set `marked_at` to `NULL` or leave it out to use the current time.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tvm-header-logo.png
+  humanURL: http://www.tvmaze.com
+  baseURL: https://api.tvmaze.com//v1
+  tags: Televisions, General Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/tvmaze/userepisodesepisode-id-put-openapi.md
+- name: TVmaze user - Get User Votes Episodes
+  x-api-slug: uservotesepisodes-get
+  description: Get user votes episodes.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tvm-header-logo.png
+  humanURL: http://www.tvmaze.com
+  baseURL: https://api.tvmaze.com//v1
+  tags: Televisions, General Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/tvmaze/uservotesepisodes-get-openapi.md
+- name: TVmaze user - Delete User Votes Episodes
+  x-api-slug: uservotesepisodesepisode-id-delete
+  description: Delete user votes episodes.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tvm-header-logo.png
+  humanURL: http://www.tvmaze.com
+  baseURL: https://api.tvmaze.com//v1
+  tags: Televisions, General Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/tvmaze/uservotesepisodesepisode-id-delete-openapi.md
+- name: TVmaze user - Get User Votes Episodes
+  x-api-slug: uservotesepisodesepisode-id-get
+  description: Get user votes episodes.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tvm-header-logo.png
+  humanURL: http://www.tvmaze.com
+  baseURL: https://api.tvmaze.com//v1
+  tags: Televisions, General Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/tvmaze/uservotesepisodesepisode-id-get-openapi.md
+- name: TVmaze user - Parameters User Votes Episodes
+  x-api-slug: uservotesepisodesepisode-id-parameters
+  description: Parameters user votes episodes.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tvm-header-logo.png
+  humanURL: http://www.tvmaze.com
+  baseURL: https://api.tvmaze.com//v1
+  tags: Televisions, General Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/tvmaze/uservotesepisodesepisode-id-parameters-openapi.md
+- name: TVmaze user - Put User Votes Episodes
+  x-api-slug: uservotesepisodesepisode-id-put
+  description: Put user votes episodes.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tvm-header-logo.png
+  humanURL: http://www.tvmaze.com
+  baseURL: https://api.tvmaze.com//v1
+  tags: Televisions, General Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/episodes/master/_listings/tvmaze/uservotesepisodesepisode-id-put-openapi.md
 x-common:
 - type: x-website
   url: http://www.tvmaze.com
